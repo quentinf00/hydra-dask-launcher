@@ -12,7 +12,7 @@ class DaskLauncherConf:
     _target_: str = "hydra_plugins.hydra_dask_launcher.launcher.DaskLauncher"
     verbose: int = 0
     cluster: Optional[Any] = None
-    scale_jobs: Optional[int] = None
+    scale_kwargs: Optional[Dict[str, Any]] = None
     client: Optional[Dict[str, Any]] = None
     adapt_kwargs: Optional[Dict[str, Any]] = None
     parallel_config: Optional[Dict[str, Any]] = None

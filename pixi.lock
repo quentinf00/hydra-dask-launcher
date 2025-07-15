@@ -723,7 +723,7 @@ packages:
 - pypi: ./
   name: hydra-dask-launcher
   version: 0.1.0
-  sha256: 56d77c2d7a33eed4c14a064a45d559a557693017f77ad6e81849e01e198acbab
+  sha256: 5d2d71b01c0b760044880995ea04181623ee76e0985adca09b179186643d55da
   requires_dist:
   - hydra-core>=1.3.2,<2
   requires_python: '>=3.11'
