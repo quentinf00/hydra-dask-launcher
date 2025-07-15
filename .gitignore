@@ -1,0 +1,6 @@
+# pixi environments
+.pixi
+multirun
+outputs
+*.conda
+**/__pycache__
